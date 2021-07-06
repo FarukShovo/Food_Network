@@ -1,0 +1,96 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+span{
+    color: orange;
+}
+.top{
+    display: flex;
+    margin-right: 0px;
+    
+    
+}
+h1{
+    font-size: 50px;
+    
+    
+}
+.container{
+    width: 100%;
+    margin: 5%;
+  
+}
+
+.order-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(218, 53, 24));
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+}
+#background{
+    background-image: url(7.png);
+    background-repeat: no-repeat;
+    
+    
+}
+#recipies{
+    text-align: center;
+    margin: 50px;
+    padding-right: 20%;
+    padding-left: 20%;
+    width: 60%;
+}
+.buttom{
+    display: flex;
+    padding: 30px;
+    margin-left: 3px;
+ 
+
+}
+.item{
+    box-shadow: rgb(206, 199, 199) 5px 5px 30px;
+    padding: 25px;
+    margin-left: 2%;
+    border-radius: 20px;
+}
+footer{
+    background: black;
+    text-align: center;
+    padding-top: 10px;
+ 
+}
+#footer-color{
+    color: rgb(105, 100, 100);
+}
+h3{
+    color: wheat;
+}
+.social-media-ref{
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+   
+    box-shadow: rgb(122, 121, 121) 10px 20px 40px;
+    border-radius: 15px;
+}
+.media{
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+.information-center{
+ 
+    display: flex;
+    background-color: rgb(236, 122, 141);
+    border-radius: 20px;
+   
+}
+.info-center{
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}

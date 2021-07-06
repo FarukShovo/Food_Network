@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food-Network</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="shortcut icon"
+        href="data:image/jpeg;base64,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"
+        type="image/x-icon">
+</head>
+
+<body>
+    <section>
+        <div class="top">
+            <div class="container">
+                <h1><Span>Skip</Span> The Diet, Just Eat Healthy With Food Network</h1>
+                <p>Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
+                <a class="order-button" target="_blank"
+                    href="https://www.foodpanda.com.bd/?gclid=CjwKCAjw_o-HBhAsEiwANqYhpzsQ1hbUMrMpti4o9MpKGZpANYowTpmyQyFyxnq4Ys4laQ78tV0ZvxoC_G4QAvD_BwE">Order
+                    Food</a>
+            </div>
+            <div class="container">
+                <img src="Group 8425.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+        <div id="background" class="top">
+            <div>
+                <img src="my-bg2.png" alt="">
+            </div>
+            <div class="container">
+                <h1>About Me</h1>
+                <p>I'm Omar Faruk. I'm a hero learner. I'm learning web developement. I want to be a professional web
+                    developer.At present I study in Yangzhou University which is in Jiangsu provience China. I Can Speak
+                    in Bangla, English, Chinese as well as Hindi.</p>
+                <a class="order-button" target="_blank" href="https://www.facebook.com/faruk.shovo.39">Contract
+                    Me</a>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div id="recipies">
+            <H1>My Recipies</H1>
+            <p>I can cook a lot of recipies. Among them Biriany,Kabab, Halim, Cococlate, Fruit salad, vegetable Salad,
+                chinese cuisine such as Dumpling, Momo, caomian, Niurou Caomian, Niurou Lemian and so on.</p>
+        </div>
+        <div class="buttom">
+            <div class="item">
+                <img src="halim (1).png" alt="" height="250px" width="400px">
+                <h2>Halim</h2>
+                <p>Halim is very testy food. It is very popular street food in Bangladesh.Specially girls like it more
+                    than boys.</p>
+            </div>
+            <div class="item">
+                <img src="cocolate.jpg" alt="" height="250px" width="400px">
+                <h2>Cococlate</h2>
+                <p>Cocolate is a healthy and delicious food. It is very fovourite food of the babies. this food is good
+                    for health but over eating is harmful for anyone.</p>
+            </div>
+            <div class="item">
+                <img src="veg.jpg" alt="" height="250px" width="400px">
+                <h2>Meat & vegetable</h2>
+                <p>This is vegetable with red meat. It is very important for human body, it is easy to eat and it has
+                    various kind of
+                    nutritional value. normally people eat it with some other food but it could be eaten without other
+                    food.
+                    also</p>
+            </div>
+        </div>
+    </section>
+    <section class="social-media-ref">
+        <div class="media">
+            <h2>700k</h2>
+            <small>youtube subscribers</small>
+        </div>
+        <div class="media">
+            <h2>2.5m</h2>
+            <small>Instagram followers</small>
+        </div>
+        <div class="media">
+            <h2>100k </h2>
+            <small>Dibble shot likes</small>
+        </div>
+    </section>
+    <section class="information-center">
+        <div class="info-center">
+            <h4>Company</h4>
+            <a target="_blank" href="https://www.foodpanda.com/about/">About Us</a> <br>
+            <a target="_blank"
+                href="https://www.info.com/serp?q=find%20me%20scholarships&segment=info.0608&s1aid=3901214570&s1cid=13292059127&s1agid=122558769093&s1kid=kwd-320266010354&utm_source=adwords&gclid=CjwKCAjw_o-HBhAsEiwANqYhpxjenYSATTAI82ZU89pLkbvpRibqnPjFgT2fwySzX51BS6IcZLcD1hoCXy0QAvD_BwE">Scholarships</a>
+            <br>
+            <a target="_blank" href="https://www.partner.foodpanda.hk/resource-centre">Resources</a>
+        </div>
+        <div class="info-center">
+            <h4>Connect With Us</h4>
+            <a target="_blank"
+                href="https://www.facebook.com/groups/completewebdevelopment4/?multi_permalinks=453163502600564%2C453149065935341%2C453051795945068%2C453016812615233%2C453011835949064&notif_id=1625218089655625&notif_t=group_activity&ref=notif">Facebook</a>
+            <br>
+            <a target="_blank" href="https://twitter.com/?lang=en">Twitter</a> <br>
+            <a target="_blank" href="https://www.linkedin.com/in/faruk-shovo-8397701a4/">LinkedIn</a> <br>
+            <a target="_blank" href="https://www.youtube.com/">YouTube</a> <br>
+            <a target="_blank" href="https://www.instagram.com/">Instagram</a>
+        </div>
+        <div class="info-center">
+            <h4>Help</h4>
+            <a target="_blank" href="https://www.partner.foodpanda.hk/contact-us">Contract Us</a> <br>
+            <a target="_blank" href="https://www.partner.foodpanda.hk/marketing-promotion">FAQ</a><br>
+            <a target="_blank"
+                href="https://www.partner.foodpanda.hk/post/%E9%A1%A7%E5%AE%A2%E7%9A%84%E6%84%8F%E8%A6%8B-customer-feedback">Feedback</a>
+        </div>
+        <div class="info-center">
+            <h4>Terms of Use</h4>
+            <a target="_blank" href="https://www.partner.foodpanda.hk/terms-and-conditions">Terms and Conditions</a><br>
+            <a target="_blank" href="https://www.partner.foodpanda.hk/copy-of-terms-and-conditions">Privacy Policy</a>
+        </div>
+    </section>
+    <footer>
+        <h2> <span>FOOD</span> <span id="footer-color">NETWORK</span> </h2>
+        <h3>Eat Healthy To Live Healthy. Live Healthy To Live Happy. </h3>
+        <h3>Copyright@This Site is developed by FarukShovo</h3>
+    </footer>
+
+</body>
+
+</html>
